@@ -1,0 +1,4 @@
+import Link from 'next/link';
+export default function Home() {
+  return <main className="auth-wrap"><section className="auth-card"><div className="brand"><span className="brand-mark">m</span> meme'd</div><div className="eyebrow" style={{marginTop:35}}>Creator campaign marketplace</div><h1 style={{fontSize:38,lineHeight:1.12,marginTop:12}}>Great content deserves great payouts.</h1><p className="subtle" style={{margin:'16px 0 25px'}}>Discover creator campaigns, track views, and see your milestone earnings in one place.</p><div style={{display:'grid',gap:10}}><Link className="button" href="/signup">Get started</Link><Link className="button secondary" href="/login">I already have an account</Link></div><p className="subtle" style={{fontSize:12,marginTop:24}}>Built for brands and creators. Powered by transparent milestone payouts.</p></section></main>;
+}
